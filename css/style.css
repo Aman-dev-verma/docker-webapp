@@ -1,0 +1,129 @@
+body {
+
+
+    background-image: url("http://raw.githubusercontent.com/Aman-dev-verma/docker-webapp/main/images/background1.png");
+    background-color: #cccccc;
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: content-box;
+  }
+
+  
+.center{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  }
+  
+
+
+  div#docker-img {
+    width: 1px;
+    height: 1px;
+    position: relative;
+    animation-name: movement;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+  }
+
+  div#d4 {
+
+
+	text-align: center;
+	padding: 12px 20px;
+	margin: 8px 0;
+	background-color: black;
+	height: 30%;
+	width: 50%;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-style: normal;
+	font-weight: 10;
+	font-size: 2rm;
+	}
+
+div#d4.scroll {
+	margin:4px, 4px;
+	padding:4px;
+        overflow-x: hidden;
+	overflow-y: auto;
+	text-align:justify;
+	  }
+
+  @keyframes movement {
+    0%   {left:0px; top:80%;}
+    50%  {left:85%; top:80%;}
+    100%  {left:0%; top:80%;}
+    
+    
+  }
+
+  .btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #11CDD4 2px;
+    text-decoration: none;
+    position: relative;
+    left: 30px;
+  }
+  
+  .btn:hover {
+    background: #13E3CB;
+    background-image: -webkit-linear-gradient(top, #13E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #13E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #13E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #13E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #13E3CB, #2BC4AD);
+    text-decoration: none;
+  }
+  
+  h1#heading{
+    font-size: 5.625rem;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+  }
+
+  h2#subheading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight:bold;
+    padding-bottom: 10px;
+    color:rgb(238, 255, 0);
+  }
+
+  label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+  }
+/*
+  dev#d4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 10px;
+  }*/

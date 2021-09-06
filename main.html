@@ -1,0 +1,50 @@
+<html> 
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js"></script>
+</head>
+
+
+
+
+<body>
+  <div id="docker-img">
+	  <img width="200" height="200" alt="Docker Image" usemap="#workmap" src="images/large_v-trans.png"> </img>
+    
+  </div>
+  <h1 id="heading" ><em>Docker WebApp</em></h1>
+  <h2 id="subheading" >A user friendlly App to control and manage docker containers</h2>
+  <label>Enter your command</label><br>
+  <div id="d1">
+
+	<center> 
+		<br>
+		<input type="text" id="cmd" name="osname" placeholder="cmd..">
+		<button class="btn" onclick="op()" type="submit">RUN</button>
+	</center>    
+  </div>
+  <br><br>
+
+    <div id="d2">
+	<center>
+		<button class="btn" id="b1" onclick="b1()">RunningContainer</button>
+		<button class="btn" id="b2" onclick="b2()">StopedContainer</button>
+		<button class="btn" id="b3" onclick="b3()">DockerImages</button>
+		<button class="btn" id="b4" onclick="b4()">SeeAllContainerID</button>
+		<button class="btn" id="b5" onclick="b5()">DockerStatus</button>
+		<button class="btn" id="b6" onclick="b6()">DockerInfo</button>
+
+        </center>
+   </div>
+   <center>
+    
+    <div id="d4" class="scroll"></div>
+
+   </center>
+
+
+    
+ 
+</body>
+
+</html>
